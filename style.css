@@ -24,67 +24,72 @@ body{
   }
 
   .logo{
-    display:inline-block;
-    font-size: 1.2rem;
+      display: inline-block;
+      font-size: 3vw;
   }
   
 .navbar-menu ul{
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
-.navbar-menu ul li:hover{
-  background: rgba(221, 214, 214, 0.329);
-  
+
+.navbar-menu ul li:hover {
+    background: rgba(221, 214, 214, 0.329);
+
 }
 
-  .navbar-menu li{
+.navbar-menu li {
     display: inline-block;
-    margin-right: 10px;
-    padding: 5px;
-    
-  }
+    margin-right: 1vw;
+    padding: 0.5vw;
 
-  a{
+}
+
+a {
     color: snow;
     text-decoration: none;
-  }
+    font-size: 1.5vw;
+}
 
-  main{
+main {
     height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #ffffff;
 
-  }
+}
 
-  .big-text{
-    font-size: 55px;
-    font-family: Verdana;
-  }
+.big-text {
+    font-size: 5vw;
+    font-family: Verdana, serif;
+}
 
-  
+p {
+    font-size: 1.5vw;
+}
 
-  .main-logo{
-    font-size: 35px;
+.main-logo {
+    /*font-size: 3vw;*/
     border: 2px solid #fff;
-    width: 50px;
-    height: 50px;
-    margin-top: 0px;
-    padding: 10px;
+    /*width: 2vw;*/
+    /*height: 2vw;*/
+    padding: 2vw;
     /* transform: rotate(90deg); */
     margin: 0 auto;
     border-radius: 100%;
-    transition-duration: 3s;
-    
-  }
+    transition-duration: 5s;
 
-span.fa{
-  width: 48px;
-  border-radius: 100%;
-  border: 3px solid snow;
-  transition-duration: 3s;
+}
+
+span.fa {
+    width: 5vw;
+    height: 5vw;
+    /*font-size: 10vw;*/
+    border-radius: 100%;
+    border: 0.3vw solid snow;
+    transition-duration: 3s;
 
 }
 
@@ -110,16 +115,16 @@ span.fa{
 } */
 
 
-.main-logo:hover{
-  margin-top: 100px;
-  background: rgb(43, 233, 185);
-  
+.main-logo:hover {
+    margin-top: 3vw;
+    background: rgb(43, 233, 185);
+
 }
 
-.fa:hover{
-  margin-top: 100px;
-  background: rgb(43, 233, 185);
-  
+.fa:hover {
+    margin-top: 3vw;
+    background: rgb(43, 233, 185);
+
 }
   
   
